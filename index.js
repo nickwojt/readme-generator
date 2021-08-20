@@ -23,6 +23,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is your github profile link?",
+    name: "link",
+  },
+  {
+    type: "input",
     message: "What is your email address?",
     name: "email",
   },
@@ -31,14 +36,11 @@ const questions = [
     message: "What type of license does your project use?",
     name: "license",
     choices: [
-      "GNU AGPLv3",
       "GNU GPLv3",
-      "GNU LGPLv3",
       "Mozilla Public License 2.0",
       "Apache License 2.0",
       "MIT License",
-      "Boost Software License 1.0",
-      "The Unlicense",
+      "none",
     ],
   },
   {
@@ -52,6 +54,12 @@ const questions = [
     message: "What commands should be run for tests?",
     name: "tests",
     default: "npm run test",
+  },
+  {
+    type: "input",
+    message: "What command should be used to start the program?",
+    name: "usage",
+    default: "node index.js",
   },
 ];
 
