@@ -2,6 +2,10 @@
 
 ## Description
 
+This README was generated using this application.
+
+Link to video on application use: https://drive.google.com/file/d/1UTreVprDyHavJlopeh_W4KiCF2oC7Fpb/view
+
 This projects uses Node.js and JS with the module inquirer to create a CLI based readme generator. The prompts ask for user input for a variety of general things in a README. A README is then generated automatically and formatted automatically using your input. The readme will include a table of contents with links that jump to that part of the document. 
 
 
